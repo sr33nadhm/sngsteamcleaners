@@ -5,6 +5,9 @@
   position: relative;
   z-index: -2;
 }
+.carousel {
+  margin-top: 80px;
+}
 .carousel-row {
   padding-left: 25px;
   padding-right: 25px;
@@ -94,6 +97,13 @@
   color: var(--main-theme-color-light);
 }
 
+.logo {
+  margin: auto;
+}
+.img-logo {
+  text-align: center;
+}
+
 @media all and (max-width: 374px) {
   .desc-1 {
     height: 230px !important;
@@ -105,6 +115,10 @@
   .carousel-inner,
   .carousel-item {
     overflow-y: visible;
+  }
+  .logo {
+    height: 70%;
+    width: 100%;
   }
 }
 @media all and (max-width: 500px) {
@@ -144,6 +158,10 @@
   .img-4 {
     padding-top: 70px;
     width: 80% !important;
+  }
+  .logo {
+    height: 75%;
+    width: 100%;
   }
 }
 

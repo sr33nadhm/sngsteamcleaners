@@ -12,10 +12,6 @@
   <meta name="keywords"
     content="SNG, steam, cleaners, car, wash, carwash, delhi, newdelhi, cleaning, drive, wheel alignment, car wax, car wash, wash vehicle" />
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 
 
   <!-- Bootstrap CSS -->
@@ -37,7 +33,7 @@
 </head>
 
 <body>
-  <app-root></app-root>
+  <app-root (scroll)="onWindowScroll($event)"></app-root>
 </body>
 
 </html>

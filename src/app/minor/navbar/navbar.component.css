@@ -1,5 +1,23 @@
+.static-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--main-theme-color-light) !important;
+  color: white;
+  height: 25px;
+  z-index: 999;
+  text-align: center;
+  padding: 1px;
+}
+.static-bar p a {
+  color: white !important;
+}
+.static {
+  vertical-align: middle;
+}
 .theme {
   color: var(--main-theme-color-light) !important;
+  background-color: white;
 }
 .fa {
   font-size: larger;
@@ -17,9 +35,13 @@
     margin-right: 0 !important;
     width: auto;
   }
+  .icon {
+    visibility: hidden;
+  }
   .navbar {
     padding-top: 1%;
     padding-bottom: 1%;
+    height: 100px;
   }
   .nav-link:hover {
     font-weight: 600;
@@ -27,5 +49,11 @@
     border-radius: 10px;
     width: 150px;
     text-align: center;
+  }
+  .nav-link:hover .icon {
+    visibility: visible;
+  }
+  .fixed-top {
+    top: 25px !important;
   }
 }

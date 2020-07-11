@@ -8,6 +8,9 @@ app-gallery {
   width: 100%;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --main-theme-color-dark: #007b5e;
   --main-theme-color-light: #15ce15;
@@ -32,4 +35,22 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #007b5e;
   outline: 1px solid #007b5e;
+}
+.sticky {
+  background: #fff;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.08);
+  position: fixed;
+  top: 0;
+  height: auto !important;
+  width: 100%;
+}
+@media only screen and (min-width: 769px) {
+  .sticky {
+    background: #fff;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.08);
+    position: fixed !important;
+    top: 0 !important;
+    height: 50px !important;
+    width: 100%;
+  }
 }
