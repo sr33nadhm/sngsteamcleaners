@@ -1,0 +1,46 @@
+.padded-row {
+  padding: 2% 4%;
+  width: 100%;
+  margin: auto;
+}
+.padded-col {
+  padding: 4%;
+  border-radius: 10px;
+  margin: 0% 1% 0% 1%;
+}
+.pricing-col {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0% 1% 0% 1%;
+  padding: 2% 4%;
+  text-align: center;
+  margin-top: 10px !important;
+}
+.shadowed {
+  box-shadow: 0px 20px 20px -20px rgba(0, 0, 0, 0.5),
+    0px -20px 20px -20px rgba(0, 0, 0, 0.5),
+    20px 0px 20px -20px rgba(0, 0, 0, 0.5),
+    -20px 0px 20px -20px rgba(0, 0, 0, 0.5);
+}
+.article-about {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: small;
+}
+.margined {
+  margin-top: 5px;
+  font-weight: bolder;
+}
+.dark-secondary-bold {
+  color: var(--secondary-theme-color);
+}
+.light-bold {
+  color: var(--main-theme-color-light);
+}
+
+@media only screen and (max-width: 768px) {
+  .margined {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}

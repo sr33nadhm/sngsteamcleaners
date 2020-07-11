@@ -1,0 +1,37 @@
+<div class="main">
+    <app-slider></app-slider>
+    <div class="article-row row">
+        <div class="col-sm-6">
+            <div class="card text-center">
+                <div class="card-header text-primary">
+                    Need a car wash?
+                </div>
+                <img class="card-img-top" src="../../../assets/cards/car2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mobile Steam Car Wash</h5>
+                    <p class="card-text">SNG Steam Mobile Car Wash is a one-step process to effectively clean, disinfect
+                        and protect your car, bike, RV and more. Using High Pressure Steam Technology, the waterless
+                        wash process is very effective.</p>
+                    <button class="btn btn-primary btn-more" (click)="showCar()">See more</button>
+                    <button class="btn btn-primary" (click)="showPrices('car')">See Pricing</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card text-center">
+                <div class="card-header text-primary">
+                    Or clean Home?
+                </div>
+                <img class="card-img-top" src="../../../assets/cards/home1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Commercial and Residential Steam Cleaning</h5>
+                    <p class="card-text">In short, we clean commercial, and residential properties across Delhi and NCR.
+                        We guarantee a quality and consistent service to match your expectations. Find out just how
+                        affordable we are by giving us a call today.</p>
+                    <button class="btn btn-primary btn-more" (click)="showHome()">See more</button>
+                    <button class="btn btn-primary" (click)="showPrices('home')">See Pricing</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

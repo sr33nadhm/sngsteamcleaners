@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light theme">
+  <a class="navbar-brand theme" routerLink="/">
+    <img src="../../../assets/logo/logo.png" width="60px" alt="SNG Steam Cleaning">
+  </a>
+  <button class="navbar-toggler theme" type="button" data-toggle="collapse" data-target="#navbarText"
+    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon theme"></span>
+  </button>
+  <div class="collapse navbar-collapse theme" id="navbarText">
+    <ul class="nav navbar-nav ml-auto theme nav-padding">
+      <li class="nav-item active theme">
+        <a class="nav-link theme" routerLink="/">
+          <i class="fa fa-home">&nbsp;</i>Home<span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item theme">
+        <a class="nav-link theme" routerLink="/about">
+          <i class="fa fa-star">&nbsp;</i>Features
+        </a>
+      </li>
+      <li class="nav-item theme">
+        <a class="nav-link theme" (click)="showPrices('all')">
+          <i class="fa fa-inr">&nbsp;</i>Pricing
+        </a>
+      </li>
+      <li class="nav-item theme">
+        <a class="nav-link theme" routerLink="/faq">
+          <i class="fa fa-question-circle-o">&nbsp;</i>FAQ
+        </a>
+      </li>
+      <li class="nav-item theme">
+        <a class="nav-link theme" routerLink="/gallery">
+          <i class="fa fa-picture-o">&nbsp;</i>Gallery
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

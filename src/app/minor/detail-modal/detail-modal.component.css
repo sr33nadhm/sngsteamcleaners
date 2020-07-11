@@ -1,0 +1,22 @@
+.mymodal {
+    border-radius: 50px;
+}
+
+.mymodal ul li {
+    color: var(--secondary-theme-color);
+}
+
+.mymodal ul li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.mymodal ul li i {
+    margin-right: 5px;
+}
+
+.service-list {
+    width: 250px;
+}

@@ -1,0 +1,41 @@
+.card {
+  margin: 1%;
+}
+
+.card-row {
+  justify-content: center;
+}
+
+.card-img-top {
+  padding: 10px;
+  height: 250px;
+}
+
+.card-header {
+  background-color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-body {
+  padding: 0 10px !important;
+}
+
+.info {
+  font-size: small;
+}
+
+.price {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    box-shadow: 0px 20px 40px -20px rgba(0, 0, 0, 0.2),
+      0px -20px 40px -20px rgba(0, 0, 0, 0.2),
+      20px 0px 40px -20px rgba(0, 0, 0, 0.2),
+      -20px 0px 40px -20px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

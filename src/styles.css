@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body,
+app-root,
+router-outlet,
+app-gallery {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+:root {
+  --main-theme-color-dark: #007b5e;
+  --main-theme-color-light: #15ce15;
+  --secondary-theme-color: #002b5e;
+  --main-padding: 15px;
+}
+
+.mat-dialog-container {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 25px !important;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px #007b5e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #007b5e;
+  outline: 1px solid #007b5e;
+}
