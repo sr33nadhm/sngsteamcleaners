@@ -11,6 +11,13 @@ app-gallery {
 html {
   scroll-behavior: smooth;
 }
+.carousel {
+  margin-top: 80px !important;
+}
+.content,
+.mt-80 {
+  margin-top: 120px !important;
+}
 :root {
   --main-theme-color-dark: #007b5e;
   --main-theme-color-light: #15ce15;

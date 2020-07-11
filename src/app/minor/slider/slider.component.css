@@ -5,9 +5,6 @@
   position: relative;
   z-index: -2;
 }
-.carousel {
-  margin-top: 80px;
-}
 .carousel-row {
   padding-left: 25px;
   padding-right: 25px;
