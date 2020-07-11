@@ -43,6 +43,9 @@
 .slide-7 {
   background-image: url("../../../assets/gallery/slide8.jpg");
 }
+blockquote {
+  padding: 1% 5%;
+}
 @media only screen and (max-width: 374px) {
   .gallery-row {
     height: 30%;
