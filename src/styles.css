@@ -51,6 +51,9 @@ body::-webkit-scrollbar-thumb {
   height: auto !important;
   width: 100%;
 }
+.seo {
+  display: none;
+}
 @media only screen and (min-width: 769px) {
   .sticky {
     background: #fff;
