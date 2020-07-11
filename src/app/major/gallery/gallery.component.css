@@ -82,17 +82,35 @@ blockquote {
     height: 50%;
   }
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (max-height: 640px) {
+  .gallery-row {
+    height: 90%;
+  }
   .slide {
-    width: 80% !important;
+    width: 70% !important;
     height: 85% !important;
   }
   .carousel-indicators {
     bottom: 65px !important;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 769px) and (max-height: 899px) {
+  .slide {
+    height: 85% !important;
+  }
+}
+@media only screen and (min-width: 769px) and (min-height: 960px) {
   .slide {
     height: 87% !important;
+  }
+}
+@media only screen and (min-width: 1920px) and (min-height: 960px) {
+  .slide {
+    height: 89% !important;
+  }
+}
+@media only screen and (min-width: 1920px) and (min-height: 1440px) {
+  .slide {
+    height: 92% !important;
   }
 }
