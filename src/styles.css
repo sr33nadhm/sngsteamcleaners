@@ -54,6 +54,22 @@ body::-webkit-scrollbar-thumb {
 .seo {
   display: none;
 }
+iframe {
+  width: 100% !important;
+}
+@media only screen and (max-width: 768px) {
+  .gallery-row {
+    height: 30%;
+  }
+  .fb-post,
+  .fb_iframe_widget span {
+    overflow-y: visible !important;
+    width: 100% !important;
+  }
+  .plugin {
+    width: 90% !important;
+  }
+}
 @media only screen and (min-width: 769px) {
   .sticky {
     background: #fff;
@@ -62,5 +78,16 @@ body::-webkit-scrollbar-thumb {
     top: 0 !important;
     height: 50px !important;
     width: 100%;
+  }
+  iframe {
+    width: 100% !important;
+  }
+  .fb-post,
+  .fb_iframe_widget span {
+    overflow-y: visible !important;
+    width: 100% !important;
+  }
+  .plugin {
+    width: 90% !important;
   }
 }
